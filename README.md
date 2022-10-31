@@ -4,8 +4,8 @@
 ### copy constructor ### 
 If a copy constructor is not defined in a class, the compiler itself defines one.If the class has pointer variables and has some dynamic memory allocations, then it is a must to have a copy constructor.
 When initialize an object with another object of same class during its declaration, copy constructor will be called.
-    + shallow copy: The compiler will do shallow copy by default.  Only the object gets copied but not all the members of the class are copied.
-    + deep copy: when you have decided to implement copy constructor or overload assignment in your class and allows copying all the members of the class.
+    * shallow copy: The compiler will do shallow copy by default.  Only the object gets copied but not all the members of the class are copied.
+    * deep copy: when you have decided to implement copy constructor or overload assignment in your class and allows copying all the members of the class.
 
 Shallow:
 
